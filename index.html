@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Ma formulaire thml</title>
+</head>
+<body>
+    <form >
+        <div id="image"><img src="DSC_2537.JPG" alt="photo"></div>
+        <div id="info">
+            <h1>Infos personnel</h1><br>
+            <label for="nom">Firstame</label>
+            <input type="text" name="nom" id="nom" placeholder="entrer votre nom complet"><br>
+            <label for="prenom">last name</label>
+            <input type="text" name="prenom" id="prenom"><br>
+            <label for="Number">Number</label>
+            <input type="tel" name="tel" id="number"><br>
+            <label for="numero">Matricule</label>
+            <input type="number"><br>
+            <label for="mail">Mail</label>
+            <input type="email" name="mail" id="mail"><br>
+            <input type="password" name="pass" id="pass"  placeholder="pass word"><br>
+            <label for="nivl">Niveau d'Anglais</label>
+            <input type="range" name="nivl" id="nivl"><br>
+            <label for="sexe">sexe</label><br>
+            <input type="radio" name="sexe" id="man">
+            <label for="sexe">homme</label><br>
+            <input type="radio" name="sexe" id="woman">
+            <label for="sexe">femme</label>
+        </div>
+        <div id="information">
+            <h1>Niveau</h1>
+            <p>Vous êtes dans quel niveau</p>
+            <select name="niveau" id="niveau">
+                <option value="L1">L1</option>
+                <option value="L2">L2</option>
+                <option value="L3">L3</option>
+                <option value="M1">M1</option>
+                <option value="M2">M2</option>
+            </select>
+            <h1>Parcours</h1>
+            <p>Vous suivez de quel parcours?</p>
+            <select name="parcours" id="parcours">
+                <option value="GB">GB</option>
+                <option value="IG">IG</option>
+                <option value="SR">SR</option>
+            </select>
+            <h1>Groupe</h1>
+            <select name="groupe" id="groupe">
+                <option value="G1">Groupe1</option>
+                <option value="G2">Groupe2</option>
+                <option value="G3">Groupe3</option>
+                <option value=""></option>
+            </select>
+
+                <button type="button">valeur</button><br>
+                <input type="checkbox" >
+                <label for="foot">footbal</label><br>
+                <input type="checkbox">
+                <label for="hand">hand</label><br>
+                <input type="checkbox">
+                <label for="basket">basket</label><br>
+                <input type="checkbox">
+                <label for="natation">natation</label><br>
+                <input type="color" name="couleur" id="couleur">
+        </div>
+        <div id="inputtype">
+            <p>entrer votre cv</p>
+            <input type="file" name="cv" id="cv"><br>
+            <input type="date" name="date" id="date"><br>
+            <input type="hidden" name="cache"><br>
+            <input type="search" name="recheche" id="recherche"><br>
+            <input type="url" name="lien" id="lien" placeholder="lien">
+            <input type="week" name="week" id="week">
+        </div>
+        <div id="valide">
+            <button type="submit">envoyer</button>
+            <button id="valider" type="submit">valider</button>
+        </div>
+    </form>
+</body>
+</html>
