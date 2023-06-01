@@ -1,6 +1,6 @@
 body{
     background-color: rgb(10, 10, 10);
-    color: rgb(3, 3, 3);
+    color: rgb(248, 239, 239);
     font-weight: 200;
     align-items: center;
     justify-content: center;
@@ -25,6 +25,8 @@ img{
     justify-content: center;
     border-radius: 50px;
     box-shadow: 2px 4px 100px rgb(255, 12, 12);
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
     
     
     
